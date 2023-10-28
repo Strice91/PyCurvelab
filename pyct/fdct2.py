@@ -6,10 +6,10 @@
 # 604-822-8580 for further information.
 
 import sys as __sys
-from .fdct2_wrapper import *
+from pyct.fdct2_wrapper import *
 
 import numpy as _fdct2__n
-from .fdct import fdct
+from pyct.fdct import fdct
 
 fdct_init()
 
