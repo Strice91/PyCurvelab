@@ -11,8 +11,7 @@ import sys
 import os
 from distutils.core import setup, Extension
 
-FFTW_LIB = os.environ['FFTW_LIB']
-FFTW_INC = os.environ['FFTW_INC']
+FFTW = os.environ['FFTW']
 FDCT = os.environ['FDCT']
 
 for arg in sys.argv:
